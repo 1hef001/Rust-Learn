@@ -17,3 +17,5 @@
             let spaces = "     ";
             spaces = spaces.len();          // immutable, can't change the datatype of the variable
             ```
+    
+    7.  Length function for sting =>  str.len()  -> return type <int>
