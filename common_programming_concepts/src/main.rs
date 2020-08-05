@@ -1,4 +1,7 @@
 fn main() {
-    const X: u32 = 5;
-    println!("Constant X is : {}", X);
+    let x = 5;
+    let x = x + 1;
+    let x = x * 2;
+
+    println!("Value of x is: {}", x);
 }
