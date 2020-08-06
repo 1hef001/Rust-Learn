@@ -19,3 +19,35 @@
             ```
     
     7.  Length function for sting =>  str.len()  -> return type <int>
+    8.  Datatypes in Rust.
+    9.  Rust is statically typed.
+        ->  Scalar types : 
+            - Integer types
+                  Signed, Unsigned
+                - i8, u8
+                - i16, u16
+                - i32, u32
+                - i64, u64
+                - i128, u128
+                - isize, usize
+            
+            - Floating Point types
+                - f32
+                - f64
+
+            - Boolean type
+                - bool
+
+            - Character type
+
+        ->  Compound types
+            - Tuple type
+                - example :
+                    ```
+                        fn main(){
+                            let tup: (i32, f64, u8) = (500, 6.4, 1)
+                        }
+                    ```
+                - unpacking tuple into multiple variables
+                - ** prefix unused variables with "_" **
+                - tuple elements can also be accessed using period operator "."
