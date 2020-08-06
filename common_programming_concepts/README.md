@@ -90,4 +90,22 @@
                 }
             ```
             ** Note there shouldn't be a semicolon at the end. It is not a mistake.**
+    
+    11. Conditional statements
+        - Example for if-else_if-else block
+        ```
+            fn main(){
+                let number = 3;
+
+                if number < 5 {
+                    println!("Number is less than 5");
+                }
+                else if number == 5 {
+                    println!("Number is equal to 5");
+                }
+                else {
+                    println!("Number is greater than 5");
+                }
+            }
+        ```
 
