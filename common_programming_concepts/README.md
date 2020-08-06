@@ -127,5 +127,59 @@
 12. Operators
     -  All basic operators and operations apply.
 
+13. Loops
+    - Example  (while):
+    ```
+        fn main(){
+            let mut counter: u32 = 0;
+
+            while counter != 10 {
+                counter += 1
+            }
+
+            println!("Result is: {}", counter);
+        }
+    ```
+
+    - Example   (loop):
+    ```
+        fn main(){
+            let mut counter: u32 = 0;
+
+            let result = loop{
+                counter += 1;
+
+                if counter == 10 {
+                    break counter * 2;
+                }
+            };
+
+            println!("Result is: {}", result);
+        }
+    ```
+
+    - Example   (for):
+    ```
+        fn main(){
+            let a = [1, 2, 3, 4, 5];
+
+            for i in a.iter() {
+                println!("value of i is : {}", i);
+            }
+        }
+    ```
+
+13. The range function equivalent of python is (start..end) here. Example:
+    ```
+        fn main(){
+            // let a = [1, 2, 3, 4, 5];
+
+            for i in (1..4).rev() {
+                println!("{}", i);
+            }
+        }
+    ```
+
+
 
 
