@@ -92,7 +92,7 @@
             ** Note there shouldn't be a semicolon at the end. It is not a mistake.**
     
     11. Conditional statements
-        - Example for if-else_if-else block
+        - Example for if-else_if-else block:
         ```
             fn main(){
                 let number = 3;
@@ -108,4 +108,16 @@
                 }
             }
         ```
+        - Example of if statement in let:
+        ```
+            fn main(){
+                let number = if true {5} else {6};
+                println!("value of number is {}", number)
+            }
+        ```
+    
+    12. Operators
+        -  All basic operators and operations apply.
+
+    
 
