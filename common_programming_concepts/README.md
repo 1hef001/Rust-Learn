@@ -81,4 +81,12 @@
                 println!("The value of y is {}", y);
             }
             ```
+        - Return type must be specified after the function name in the declaration.
+        - There is no explicit return statements in rust. The last value that you find at the end of the block is probably what returns to the previous function.
+            - example:
+            ```
+                fn ret() -> i32 {
+                    -5
+                }
+            ```
 
