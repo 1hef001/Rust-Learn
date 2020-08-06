@@ -69,3 +69,16 @@
         - functions can be with or without parameters.
         - functions with parameters must annote datatypes.
         - parameters can be of any type, but must explicitly mention within parathesis at function definition.
+        * Statements like x = y = 6 are invalid in rust.
+        - Variables can be assigned blocks where new scopes are created as in example: 
+            ```
+            fn main(){
+                println!("This is main function");
+                let y = {
+                    let x = 1;
+                    x + 2
+                };
+                println!("The value of y is {}", y);
+            }
+            ```
+
