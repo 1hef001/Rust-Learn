@@ -70,7 +70,7 @@
         - functions with parameters must annote datatypes.
         - parameters can be of any type, but must explicitly mention within parathesis at function definition.
         * Statements like x = y = 6 are invalid in rust.
-        - Variables can be assigned blocks where new scopes are created as in example: 
+        - Variables can be assigned blocks where new scopes are created, so long as it returns a value as in example: 
             ```
             fn main(){
                 println!("This is main function");
