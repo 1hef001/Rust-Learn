@@ -1,6 +1,6 @@
-fn main() {
-    let tup: (i32, f64, u8) = (-4, 2.8, 1);
-    let (_x, y, _z) = tup;
-    println!("The value of y is {}", y);
-    println!("The first value in the tuple is: {}", tup.0)
+fn main(){
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let b = [3; 5];
+    println!("3rd value in a is : {}", a[2]);
+    println!("2nd value in b is : {}", b[1]);
 }

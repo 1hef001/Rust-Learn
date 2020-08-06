@@ -51,3 +51,17 @@
                 - unpacking tuple into multiple variables
                 - ** prefix unused variables with "_" **
                 - tuple elements can also be accessed using period operator "."
+
+            - Array type
+                - example :
+                    ```
+                        fn main(){
+                            let a = [1, 2, 3, 4, 5];
+                        }
+                    ```
+                Arrays are of fixed length. If you want variable sized ones, use vector or collection.
+                Arrays should be subscripted to access values.
+                All normal Array principle apply.
+
+    10. Functions
+    
