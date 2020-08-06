@@ -64,4 +64,8 @@
                 All normal Array principle apply.
 
     10. Functions
-    
+        - Unlike C\C++ wherein you have to mention function prototypes in order to write the same after main function. It is not necessary here.
+        - function names and variable names follow snake case by convention.
+        - functions can be with or without parameters.
+        - functions with parameters must annote datatypes.
+        - parameters can be of any type, but must explicitly mention within parathesis at function definition.
